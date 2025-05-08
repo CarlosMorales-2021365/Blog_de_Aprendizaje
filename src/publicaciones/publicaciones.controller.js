@@ -21,3 +21,27 @@ export const crearPulicacion = async (req, res) => {
     }
     
 }
+
+export const listarPublicaciones = async (req, res) => {
+    try{
+        const query = {estado: true };
+        
+        const [total, publicaciones] = await Promise.all([
+            Publicaciones.countDocuments(query),
+            Publicaciones.find(query)
+        ]);
+
+        return res.status(200).json({
+            success: true,
+            total,
+            publicaciones,
+            message: publicaciones.lenght === 0 ? 'No se encontraron publicaciones activas': undefined
+        })
+    }catch(err){
+        return res.status(500).json({
+            success: false,
+            message: 'Error al obtener las publicaciones',
+            error: err.message
+        });
+    }
+}

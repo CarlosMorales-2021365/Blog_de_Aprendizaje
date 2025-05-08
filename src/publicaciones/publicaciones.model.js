@@ -19,7 +19,7 @@ const publicacionesSchema = new Schema({
         type: Date,
         default: Date.now
     },
-    ststus:{
+    estado:{
         type: Boolean,
         default: true
     }

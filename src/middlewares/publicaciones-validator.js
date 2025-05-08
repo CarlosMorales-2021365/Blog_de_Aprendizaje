@@ -9,3 +9,8 @@ export const crearPublicacionesValidator = [
     validarCampos,
     handleErrors
 ]
+
+export const listarPublicacionesValidator = [
+    validarCampos,
+    handleErrors
+]
