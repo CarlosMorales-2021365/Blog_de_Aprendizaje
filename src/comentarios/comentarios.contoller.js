@@ -35,3 +35,27 @@ export const crearComentario = async (req, res) => {
         });
     }
 }
+
+export const listarComentarios = async (req, res) => {
+    try{
+        const query = {estado: true };
+
+        const [total, comentarios] = await Promise.all([
+            Comentarios.countDocuments(query),
+            Comentarios.find(query)
+        ]);
+
+        return res.status(200).json({
+            success: true,
+            total,
+            comentarios,
+            message: comentarios.lenght === 0 ? 'No se encontraron comentarios': undefined
+        })
+    }catch(err){
+        return res.status(500).json({
+            success: false,
+            message: "Error al listar Los comentarios",
+            error: err.message
+        });
+    }
+}

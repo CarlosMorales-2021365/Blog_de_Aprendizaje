@@ -10,3 +10,8 @@ export const crearComentarioValidator = [
     validarCampos,
     handleErrors
 ]
+
+export const listarComentariosValidator = [
+    validarCampos,
+    handleErrors
+]
