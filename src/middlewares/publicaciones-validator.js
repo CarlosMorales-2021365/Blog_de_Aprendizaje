@@ -1,6 +1,7 @@
 import { body, param } from "express-validator";
 import { validarCampos } from "./validate-fields.js";
 import { handleErrors } from "./handle-errors.js";
+import { publicacionExists } from "../helpers/db-validators.js";
 
 export const crearPublicacionesValidator = [
     body('titulo').notEmpty().withMessage('El titulo es obligatorio'),
@@ -14,3 +15,10 @@ export const listarPublicacionesValidator = [
     validarCampos,
     handleErrors
 ]
+
+export const eliminarPublicacionesValidator = [
+    param("id").isMongoId().withMessage("No es un ID válido"),
+    param("id").custom(publicacionExists),
+    validarCampos,
+    handleErrors
+];
