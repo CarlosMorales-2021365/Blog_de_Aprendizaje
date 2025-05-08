@@ -7,6 +7,7 @@ import morgan from "morgan"
 import { dbConnection } from "./mongo.js"
 import apiLimiter from "../src/middlewares/rate-limit-validator.js"
 import publicacionesRoutes from "../src/publicaciones/publicaciones.routes.js"
+import comentariosRoutes from "../src/comentarios/comentarios.routes.js"
 
 const middelwares = (app) =>{
     app.use(express.urlencoded({extended: false}))
@@ -19,6 +20,7 @@ const middelwares = (app) =>{
 
 const routes = (app) => {
     app.use("/blogDeAprendizaje/v1/publicaciones", publicacionesRoutes)
+    app.use("/blogDeAprendizaje/v1/comentarios", comentariosRoutes)
 }
 
 const connectarDB = async () =>{
