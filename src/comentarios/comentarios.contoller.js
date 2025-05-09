@@ -59,3 +59,36 @@ export const listarComentarios = async (req, res) => {
         });
     }
 }
+
+export const eliminarComentario = async (req, res) => {
+    try{
+    const { id } = req.params
+
+     const comentario = await Comentarios.findById(id);
+     if (!comentario) {
+            return res.status(404).json({
+                success: false,
+                message: "El comentario no existe"
+            });
+        }
+
+      await Publicaciones.findByIdAndUpdate(
+            comentario.publicaciones,
+            { $pull: { comentarios: id } }
+        );
+
+        const comentarioEliminado = await Comentarios.findByIdAndUpdate(id, {estado: false}, {new: true})
+
+    return res.status(200).json({
+            success: true,
+            message: "Comentario eliminado",
+            comentarioEliminado
+        })
+        }catch(err){
+        return res.status(500).json({
+            success: false,
+            message: "Error al eliminar el comentario",
+            error: err.message
+        })
+    }
+}
