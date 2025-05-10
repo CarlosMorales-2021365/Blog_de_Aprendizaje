@@ -8,7 +8,7 @@ const publicacionesSchema = new Schema({
     curso:{
         type: String,
         required: true,
-        enum: ['TALLER', 'PREACTICA_SUPERVISADA', 'TECNOLOGIA']
+        enum: ['TALLER', 'PRACTICA_SUPERVISADA', 'TECNOLOGIA']
     },
     texto:{
         type: String,
