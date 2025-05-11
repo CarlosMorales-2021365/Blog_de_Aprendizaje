@@ -1,0 +1,230 @@
+[{
+  "_id": {
+    "$oid": "682000751e9ea1012aff3257"
+  },
+  "titulo": "Adición de funcionalidades",
+  "curso": "TALLER",
+  "texto": "Esta API está diseñada para gestionar citas para adopciones de mascotas. Incluye funcionalidades para crear, actualizar y listar citas, así como gestionar la información del usuario.                                                                        https://github.com/CarlosMorales-2021365/Lab2-Taller/tree/master ",
+  "estado": true,
+  "comentarios": [
+    {
+      "$oid": "6820e38227a51a9137a1b13f"
+    },
+    {
+      "$oid": "6820e3a527a51a9137a1b147"
+    }
+  ],
+  "fecha": {
+    "$date": "2025-05-11T01:42:13.385Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-11T01:42:13.385Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-11T17:51:33.941Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6820014f1e9ea1012aff3271"
+  },
+  "titulo": "análisis de caso COPEREX",
+  "curso": "TALLER",
+  "texto": "Esta API está diseñada para gestionar la incorporación la incorporación de nuevos socios y empresas a la famosa feria “Interfer” organizada por COPEREX. https://github.com/CarlosMorales-2021365/Interfer ",
+  "estado": true,
+  "comentarios": [
+    {
+      "$oid": "6820e3f127a51a9137a1b15b"
+    },
+    {
+      "$oid": "6820e42d27a51a9137a1b163"
+    }
+  ],
+  "fecha": {
+    "$date": "2025-05-11T01:45:51.527Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-11T01:45:51.528Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-11T17:53:49.383Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682001ec1e9ea1012aff3277"
+  },
+  "titulo": "Venta Online",
+  "curso": "TALLER",
+  "texto": "el registro de ventas, productos en línea y otras operaciones comerciales de una empresa. La aplicación se estructura en dos secciones principales, administrador y cliente, cada uno con funcionalidades específicas. https://github.com/CarlosMorales-2021365/Venta_Online",
+  "estado": true,
+  "comentarios": [
+    {
+      "$oid": "6820e45027a51a9137a1b177"
+    },
+    {
+      "$oid": "6820e4ef27a51a9137a1b17f"
+    }
+  ],
+  "fecha": {
+    "$date": "2025-05-11T01:48:28.301Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-11T01:48:28.301Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-11T17:57:03.352Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6820dbbf27a51a9137a1b0c1"
+  },
+  "titulo": "Gestor de opiniones",
+  "curso": "PRACTICA_SUPERVISADA",
+  "texto": "Esta API esta diseñada para gestionar opiniones similar a las publicaciones de Facebook, con funcionalidades específicas centradas en la interacción y expresión de opiniones por parte de los usuarios. https://github.com/CarlosMorales-2021365/Gestor_de_Opiniones/tree/comentarios",
+  "estado": true,
+  "comentarios": [
+    {
+      "$oid": "6820ea3a27a51a9137a1b1f9"
+    },
+    {
+      "$oid": "6820eaae27a51a9137a1b201"
+    },
+    {
+      "$oid": "6820ec8f0e6e1a40091ec189"
+    }
+  ],
+  "fecha": {
+    "$date": "2025-05-11T17:17:51.490Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-11T17:17:51.490Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-11T18:29:35.883Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6820dc8127a51a9137a1b0c7"
+  },
+  "titulo": "Agenda Web",
+  "curso": "PRACTICA_SUPERVISADA",
+  "texto": "Proyecto que busca emular una agenda virtual tomando la idea básica de una agenda telefónica desarrollada con HTML y CSS https://cetkinal-my.sharepoint.com/:u:/g/personal/cmorales-2021365_kinal_edu_gt/EVbq0_BiIQ9Fga-951jJOP0Bpvlguk7U5kt0bgXLKGn-Uw?e=YBnj7c",
+  "estado": true,
+  "comentarios": [
+    {
+      "$oid": "6820eca90e6e1a40091ec19d"
+    },
+    {
+      "$oid": "6820ece90e6e1a40091ec1a5"
+    }
+  ],
+  "fecha": {
+    "$date": "2025-05-11T17:21:05.526Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-11T17:21:05.527Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-11T18:31:05.673Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6820dfd227a51a9137a1b109"
+  },
+  "titulo": "Infografía HTML, CSS, PreProcesadores",
+  "curso": "TECNOLOGIA",
+  "texto": "Infografia con informacion basica sobe lo que es HTML, CSS, y los PreProcesadores. Destacando aspectos como funcionalidad y definicion. https://www.canva.com/design/DAGcwHrjOYA/m8IW2R6hrl3H047yi-aVlQ/view?utm_content=DAGcwHrjOYA&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h8dc7737861",
+  "estado": true,
+  "comentarios": [
+    {
+      "$oid": "6820e50e27a51a9137a1b199"
+    },
+    {
+      "$oid": "6820e52127a51a9137a1b1a1"
+    }
+  ],
+  "fecha": {
+    "$date": "2025-05-11T17:35:14.925Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-11T17:35:14.925Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-11T17:57:53.461Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6820e12327a51a9137a1b117"
+  },
+  "titulo": "Mapa conceptual de TECNOLOGÍAS y FRAMEWORKS",
+  "curso": "TECNOLOGIA",
+  "texto": "Mapa concptual donde se detallan algunas de las tecnologias usadas en el desarrollo de API´s asi como algunos Frameworks los cuales sirven de apollo en el desarrollo de API´s. https://www.canva.com/design/DAGdtk08Ds0/wXNUg9Fu_F7SaIimcEuMiA/view?utm_content=DAGdtk08Ds0&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h5aa2a461bf",
+  "estado": true,
+  "comentarios": [
+    {
+      "$oid": "6820e99e27a51a9137a1b1bb"
+    },
+    {
+      "$oid": "6820e9dc27a51a9137a1b1c3"
+    }
+  ],
+  "fecha": {
+    "$date": "2025-05-11T17:40:51.413Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-11T17:40:51.413Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-11T18:18:04.961Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6820e1d127a51a9137a1b119"
+  },
+  "titulo": "Mapa mental SERVIDORES",
+  "curso": "TECNOLOGIA",
+  "texto": "Mapa Mental donde se detallan algunas de las herramientes y servidores con los que podemos realizar nuestras API´s. https://www.canva.com/design/DAGe1zSlxmk/Hn57aXUu_24S8E8yLe_IAg/view?utm_content=DAGe1zSlxmk&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h82d26da530",
+  "estado": true,
+  "comentarios": [],
+  "fecha": {
+    "$date": "2025-05-11T17:43:45.442Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-11T17:43:45.442Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-11T17:43:45.442Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6820ec690e6e1a40091ec16f"
+  },
+  "titulo": "Administración de alumnos",
+  "curso": "PRACTICA_SUPERVISADA",
+  "texto": "Esta API esta diseñada para gestionar a los estudiantes, profesores y los cursos de una institucion educativa. Incluye funcionalidades para crea actualizar cursos asi comom permitir que los alumnos visualicen los cursos a los que estan inscritos. https://github.com/CarlosMorales-2021365/Gestor-Academico/tree/master",
+  "estado": true,
+  "comentarios": [
+    {
+      "$oid": "6820ed0c0e6e1a40091ec1b9"
+    },
+    {
+      "$oid": "6820ed5a0e6e1a40091ec1c1"
+    }
+  ],
+  "fecha": {
+    "$date": "2025-05-11T18:28:57.499Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-11T18:28:57.502Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-11T18:32:58.044Z"
+  }
+}]
