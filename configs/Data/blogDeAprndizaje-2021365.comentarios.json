@@ -1,0 +1,238 @@
+[{
+  "_id": {
+    "$oid": "6820e38227a51a9137a1b13f"
+  },
+  "publicaciones": {
+    "$oid": "682000751e9ea1012aff3257"
+  },
+  "nombre": "Jose Contreras",
+  "textoC": "Este es un buen proyecto me sirvió mucho",
+  "estado": true,
+  "fecha": {
+    "$date": "2025-05-11T17:50:58.365Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6820e3a527a51a9137a1b147"
+  },
+  "publicaciones": {
+    "$oid": "682000751e9ea1012aff3257"
+  },
+  "nombre": "Maria Luisa del Valle",
+  "textoC": "Un gran proyecto",
+  "estado": true,
+  "fecha": {
+    "$date": "2025-05-11T17:51:33.939Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6820e3f127a51a9137a1b15b"
+  },
+  "publicaciones": {
+    "$oid": "6820014f1e9ea1012aff3271"
+  },
+  "nombre": "Luis Hernandez",
+  "textoC": "Gran proyecto",
+  "estado": true,
+  "fecha": {
+    "$date": "2025-05-11T17:52:49.064Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6820e42d27a51a9137a1b163"
+  },
+  "publicaciones": {
+    "$oid": "6820014f1e9ea1012aff3271"
+  },
+  "nombre": "Carlos ",
+  "textoC": "Solo hicieron fala algunas cosas para que fuera perfecto aun así que gran ayuda fue utilizarlo gracias",
+  "estado": true,
+  "fecha": {
+    "$date": "2025-05-11T17:53:49.381Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6820e45027a51a9137a1b177"
+  },
+  "publicaciones": {
+    "$oid": "682001ec1e9ea1012aff3277"
+  },
+  "nombre": "Luisa ",
+  "textoC": "Me gusto mucho el proyecto \n",
+  "estado": true,
+  "fecha": {
+    "$date": "2025-05-11T17:54:24.886Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6820e4ef27a51a9137a1b17f"
+  },
+  "publicaciones": {
+    "$oid": "682001ec1e9ea1012aff3277"
+  },
+  "nombre": "Laura Valentina",
+  "textoC": "Muy buen desarrollo en el proyecto ",
+  "estado": true,
+  "fecha": {
+    "$date": "2025-05-11T17:57:03.350Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6820e50e27a51a9137a1b199"
+  },
+  "publicaciones": {
+    "$oid": "6820dfd227a51a9137a1b109"
+  },
+  "nombre": "Jorge Luis",
+  "textoC": "Muy buen la información ",
+  "estado": true,
+  "fecha": {
+    "$date": "2025-05-11T17:57:34.495Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6820e52127a51a9137a1b1a1"
+  },
+  "publicaciones": {
+    "$oid": "6820dfd227a51a9137a1b109"
+  },
+  "nombre": "Ana ",
+  "textoC": "Bonito diseño y colores",
+  "estado": true,
+  "fecha": {
+    "$date": "2025-05-11T17:57:53.459Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6820e99e27a51a9137a1b1bb"
+  },
+  "publicaciones": {
+    "$oid": "6820e12327a51a9137a1b117"
+  },
+  "nombre": "Carla",
+  "textoC": "Gracias la informacion me fue muy util",
+  "estado": true,
+  "fecha": {
+    "$date": "2025-05-11T18:17:02.752Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6820e9dc27a51a9137a1b1c3"
+  },
+  "publicaciones": {
+    "$oid": "6820e12327a51a9137a1b117"
+  },
+  "nombre": "Efrain",
+  "textoC": "exelente infografia",
+  "estado": true,
+  "fecha": {
+    "$date": "2025-05-11T18:18:04.959Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6820ea0a27a51a9137a1b1dd"
+  },
+  "publicaciones": {
+    "$oid": "6820db9e27a51a9137a1b0bb"
+  },
+  "nombre": "Gabriel",
+  "textoC": "Un exelente desarrallo",
+  "estado": true,
+  "fecha": {
+    "$date": "2025-05-11T18:18:50.858Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6820eaae27a51a9137a1b201"
+  },
+  "publicaciones": {
+    "$oid": "6820dbbf27a51a9137a1b0c1"
+  },
+  "nombre": "Lidia Esmeralda",
+  "textoC": "Me sirvio mucho te agradezco",
+  "estado": true,
+  "fecha": {
+    "$date": "2025-05-11T18:21:34.626Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6820ec8f0e6e1a40091ec189"
+  },
+  "publicaciones": {
+    "$oid": "6820dbbf27a51a9137a1b0c1"
+  },
+  "nombre": "Gerson",
+  "textoC": "Buen Trabajo bro",
+  "estado": true,
+  "fecha": {
+    "$date": "2025-05-11T18:29:35.875Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6820eca90e6e1a40091ec19d"
+  },
+  "publicaciones": {
+    "$oid": "6820dc8127a51a9137a1b0c7"
+  },
+  "nombre": "Carlos Guevara",
+  "textoC": "Me sirvio gracias",
+  "estado": true,
+  "fecha": {
+    "$date": "2025-05-11T18:30:01.607Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6820ece90e6e1a40091ec1a5"
+  },
+  "publicaciones": {
+    "$oid": "6820dc8127a51a9137a1b0c7"
+  },
+  "nombre": "Mercedes",
+  "textoC": "le falta ser un poco mas responsive",
+  "estado": true,
+  "fecha": {
+    "$date": "2025-05-11T18:31:05.670Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6820ed0c0e6e1a40091ec1b9"
+  },
+  "publicaciones": {
+    "$oid": "6820ec690e6e1a40091ec16f"
+  },
+  "nombre": "Monica",
+  "textoC": "Es un gran desarroyo de proyecto ",
+  "estado": true,
+  "fecha": {
+    "$date": "2025-05-11T18:31:40.099Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6820ed5a0e6e1a40091ec1c1"
+  },
+  "publicaciones": {
+    "$oid": "6820ec690e6e1a40091ec16f"
+  },
+  "nombre": "Ingrid",
+  "textoC": "Le faltan algunos retoque pero es bastante funcional",
+  "estado": true,
+  "fecha": {
+    "$date": "2025-05-11T18:32:58.043Z"
+  }
+}]
