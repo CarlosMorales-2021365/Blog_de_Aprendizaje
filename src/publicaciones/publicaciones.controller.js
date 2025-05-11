@@ -35,7 +35,7 @@ export const listarPublicaciones = async (req, res) => {
           match: { estado: true },  
           options: { sort: { fecha: -1 } }  
         })
-        .sort({ fecha: -1 }) 
+         
     ]);
 
     return res.status(200).json({
